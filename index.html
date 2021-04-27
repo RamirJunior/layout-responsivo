@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="imagem/png" href="imgs/icon_wdf.png" />
+    <title>Home | Portal WD Films</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/83bbcb24d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header class="container-fluid header">
+        <!-- SEÇÃO CABEÇALHO -->
+        <section class="row">
+            <div class="col-lg-2 col-md-3 col-sm-12">
+                <a href="index.html">
+                    <img src="imgs/logo_.png" title="WD Films - O maior de portal de filmes do Brasil!" class="logo">
+                </a>
+            </div>
+
+            <div class="col-lg-7 col-md-9 col-sm-12">
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+
+                <ul class="nav justify-content-center menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaque">Em destaque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#entrevistas">Entrevistas & MakingOf</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novidades">Novidades</a>
+                    </li>
+                    <li class="nav-item item-sobre-mobile">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <!--campo de pesquisa pra mobile-->
+                        <form action="" class="search-form">
+                            <div class="form-group has-feedback">
+                                <label for="search" class="sr-only">Pesquisa</label>
+                                <input type="text" class="form-control" name="search" id="search" placeholder="Pesquisar filmes">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-9 col-sm-12">
+
+                <!-- campo de pesquisa padrão-->
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="form-control input-lg" placeholder="Pesquisar filmes" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-info btn-lg" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="container main">
+        <!-- SEÇÃO DE LANÇAMENTOS -->
+        <section id="lancamentos" class="lancamentos">
+            <div class="row linha-secao">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center">Lançamentos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 iframe">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NYH2sLid0Zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 sinopse">
+                    <h2>Mortal Kombat (2021)</h2>
+                    <p class="text-start"><b>Sinopse:</b> O lutador de MMA Cole Young (Lewis Tan), acostumado a ser pago para perder lutas, não imagina que vem uma de linhagem rara — nem que esse é o motivo para ele estar sendo caçado por guerreiros de outro mundo enviados
+                        pelo Imperador Shang Tsung. Para proteger sua família, ele embarca numa violenta jornada onde treinará para enfrentar os maiores campeões de combate do universo.</p>
+                    <b>Diretor: </b>Simon McQuoid | <b>Roteiro: </b>Dave Callaham | <b>Estréia: </b>2021<br>
+                    <b>Elenco: </b>Hiroyuki Sanada, Joe Taslim, Lewis Tan e Max Huang.<br>
+
+                    <p>
+                        <div class="estrela-avaliacao">
+                            <b>Avaliação:</b><br>
+                            <input type="radio" id="cm_star-empty" name="fb" value="" />
+                            <label for="cm_star-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-1" name="fb" value="1" />
+                            <label for="cm_star-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-2" name="fb" value="2" />
+                            <label for="cm_star-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-3" name="fb" value="3" />
+                            <label for="cm_star-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-4" name="fb" value="4" checked />
+                            <label for="cm_star-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-5" name="fb" value="5" />
+                        </div>
+                        <hr>
+                    </p>
+                    <div style="margin: auto;">
+                        <i title="Compartilhe em suas redes" class="fas fa-share-alt"></i>&nbsp;
+                        <i title="Compartilhar no Twitter" class="fab fa-twitter"></i>&nbsp;
+                        <i title="Compartinhar no Facebook" class="fab fa-facebook"></i>&nbsp;
+                        <i title="Compartilhar no Telegram" class="fab fa-telegram-plane"></i>&nbsp;
+                        <i title="Compartilhar no Whatsapp" class="fab fa-whatsapp"></i>
+                    </div>
+                </div>
+        </section>
+        <!-- SEÇÃO EM DESTAQUE -->
+        <section id="destaque">
+            <div class="row linha-secao">
+                <div class="col-lg-8 col-md-6 col-sm-12 titulo-secao">
+                    <h1>Em destaque</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <select class="form-select">
+                        <option selected>Categoria: Todos</option>
+                        <option value="1">Ação</option>
+                        <option value="2">Aventura</option>
+                        <option value="3">Comédia</option>
+                        <option value="4">Romance</option>
+                        <option value="5">Suspense</option>
+                        <option value="6">Terror</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-2 cards">
+
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/filme1.jpg" alt="Trigger Point">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">
+                                <b>Trigger Point</b><br>Ação | 1h 22m
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/filme2.jpg" alt="Boss Level - O Último Nível">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">
+                                <b>Boss Level - O Último Nível</b><br>Ação | 1h 40m
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/filme3.jpg" alt="The Virtuoso">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">
+                                <b>The Virtuoso</b><br>Suspense | 1h 45m
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/filme4.jpg" alt="Freaky: No Corpo de um Assassino">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">
+                                <b>Freaky: No Corpo de um Assassino</b><br>Terror | 1h 42m
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/filme5.jpg" alt="Viúva Negra">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">
+                                <b>Viúva Negra</b><br>Ação | 2h 13m
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row linha-botao">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-warning" type="button">
+                        <i class="fas fa-plus-circle"></i>
+                        Carregar mais filmes
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- SEÇÃO ULTIMAS AVALIAÇÕES -->
+        <section id="avaliacoes">
+            <div class="row linha-secao">
+                <div class="col-12">
+                    <h1>Últimas avaliações</h1>
+                </div>
+            </div>
+            <div class="row avaliacoes">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="avaliador">
+                        <img src="imgs/perfil3.jpg" title="Guilherme Nicrásio" alt="Avaliador 1">
+                        <div class="comentario">
+                            <h4>Guilherme Nicrásio</h4>
+                            <p><b>Avaliação: </b>O filme é incrível, por vezes lembrei de estar jogando o game com meus primos na casa da minha avó. Já merecia até uma continuação!! Top demais!</p>
+                            <img src="imgs/estrelas1.jpg" alt="avaliação"> 18/07/2020
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="avaliador">
+                        <img src="imgs/perfil1.jpg" title="Vera Castro" alt="Avaliador 2">
+                        <div class="comentario">
+                            <h4>Vera Castro </h4>
+                            <p><b>Avaliação: </b>Simplesmente amei! Bem de acordo com minhas expectativas. Sei que vou assistir mais vezes.</p>
+                            <img src="imgs/estrelas1.jpg" alt="avaliação"> 3 horas atrás
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="avaliador">
+                        <img src="imgs/perfil2.jpg" title="Augusto Frank" alt="Avaliador 3">
+                        <div class="comentario">
+                            <h4>Augusto Frank</h4>
+                            <p><b>Avaliação: </b>Acho que o figurino poderia ser um pouco mais parecido com a franquia do game. Mas no geral o enredo é sensacional!! Recomendo.</p>
+                            <img src="imgs/estrelas2.jpg" alt="avaliação"> 21 minutos atrás
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row linha-botao">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-warning" type="button">
+                        <i class="fas fa-plus-circle"></i>
+                        Carregar mais avaliações
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- SEÇÃO ENTREVISTAS E MAKING OF -->
+        <section id="entrevistas" class="entrevistas-makingof">
+            <div class="row linha-secao">
+                <div class="col-12">
+                    <h1>Entrevistas & MakingOf</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 card-entrevista">
+                    <iframe class="video-entrevista" src="https://www.youtube.com/embed/PpuoTa57hSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <div class="descricao-video">
+                        <h4>Entrevista com Joe Taslim: Mortal Kombat</h4>
+                        <p><b>Descrição: </b>Joe Taslim fala sobre seu papel em Mortal Kombat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 card-entrevista">
+                    <iframe class="video-entrevista" src="https://www.youtube.com/embed/ldk5fDI5LBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <div class="descricao-video">
+                        <h4>Entrevista com Simon McQuoid: Mortal Kombat</h4>
+                        <p><b>Descrição: </b>O diretor Simon McQuoid conversa sobre o making of de MK.</p>
+                    </div>
+                </div>
+                <div class="ccol-lg-4 col-md-4 col-sm-12 card-entrevista">
+                    <iframe class="video-entrevista" src="https://www.youtube.com/embed/h9tNq4GgGSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="descricao-video">
+                        <h4>Goro de Mortal Kombat foi bem feito?</h4>
+                        <p><b>Descrição: </b>O retorno de Mortal Kombat terá muitas cenas violentas e cheias de sangue que os fãs já conhecem. O astro Lewis Tan fala sobre as imagens do Goro no filme.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row linha-botao">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-warning" type="button">
+                        <i class="fas fa-plus-circle"></i>
+                        Carregar mais entrevistas
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- SEÇÃO DE NOVIDADES E SOBRE -->
+        <section id="novidades">
+            <div class="row novidades">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h1 class="linha-secao">Novidades</h1>
+                    <div class="row novidade">
+                        <img src="imgs/banner1.jpg" title="WandaVision" alt="Wandavision">
+                        <div class="texto-novidade">
+                            <h5>WandaVision: entenda o final da série e os próximos passos da Marvel</h5>
+                            <p>Muitas teorias a respeito da série foram contrariadas. Saiba o que ficou desconectado e o qual o futuro possível dos super-heróis.</p>
+                            <span class="badge rounded-pill bg-danger text-light">Marvel</span> |
+                            <span class="badge rounded-pill bg-dark text-light">Wandavision</span> |
+                            <span class="badge rounded-pill bg-success text-light">Ficção</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row novidade">
+                        <img src="imgs/banner2.jpg" title="Coringa" alt="Coringa">
+                        <div class="texto-novidade">
+                            <h5>Por que o Coringa de Joaquin Phoenix é tão diferente?</h5>
+                            <p>A atuação do ator trouxe perspectivas não exploradas do vilão. A comunidade amante dos HQ's se manifestou à respeito e nós explicamos o que houve.</p>
+                            <span class="badge rounded-pill bg-info text-dark">Warner</span> |
+                            <span class="badge rounded-pill bg-dark text-light">Coringa</span> |
+                            <span class="badge rounded-pill bg-warning text-dark">Drama</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row novidade">
+                        <img src="imgs/banner3.jpg" title="Stranger Things" alt="Stranger Things">
+                        <div class="texto-novidade">
+                            <h5>Possível existência de universo paralelo enlouquece fãs de Stranger Things</h5>
+                            <p>A descoberta foi feita por um grupo de cientistas financiado pela Nasa, agência espacial norte-americana. </p>
+                            <span class="badge rounded-pill bg-light text-dark">Netflix</span> |
+                            <span class="badge rounded-pill bg-dark text-light">Stranger Things</span> |
+                            <span class="badge rounded-pill bg-success text-light">Ficção</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="sobre" class="col-lg-4 col-md-4 col-sm-12">
+                    <h1 class="linha-sobre">Sobre</h1>
+                    <p class="texto-sobre">Este layout foi desenvolvido como objetivo de trabalho da disciplina
+                        <i><b>Desenvolvimento de Interfaces Web</b></i>. Foi utilizado o bootstrap 5.0 abrangendo seus conceitos básicos de grid responsivos e distribuidos em 12 colunas. Também foi utilizado o bootsnipp.com para consulta e modelagem de
+                        utilitários como ministrado pelo professor Marcos Arrais.
+                    </p>
+                    <h1 class="linha-secao-editorial">Editorial</h1>
+                    <p class="texto-sobre">
+                        <i class="fas fa-user-circle"></i>
+                        <b>Redação: </b>Ramir Junior<br>
+                    </p>
+                    <p class="texto-sobre">
+                        <i class="fas fa-user-circle"></i>
+                        <b>Pesquisa: </b>Ramir Junior<br>
+                    </p>
+                    <p class="texto-sobre">
+                        <i class="fas fa-user-circle"></i>
+                        <b>Gerente Geral: </b>Ramir Junior<br>
+                    </p>
+                    <p class="texto-sobre">
+                        <h4 class="linha-secao-editorial">Minhas redes sociais:</h4><br>
+                        <div class="redes-sociais">
+                            <img src="imgs/minha_foto.jpg" title="Me siga nas redes!" alt="Ramir Junior"><br>
+                            <a href="https://github.com/RamirJr" title="Github" target="_blank">
+                                <i class="fab fa-github-square fa-3x"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ramirjunior-/" title="Linkedin" target="_blank">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </a>
+                            <a href="https://twitter.com/juniorJHDL" title="Twitter" target="_blank">
+                                <i class="fab fa-twitter-square fa-3x"></i>
+                            </a>
+                            <a href="https://www.instagram.com/junior_rbeiro" title="Instagram" target="_blank">
+                                <i class="fab fa-instagram-square fa-3x"></i>
+                            </a>
+
+                            <hr>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid footer">
+        <div class="row align-items-center">
+            <div class="col-lg-9 col-md-10 col-sm-12">
+                <p class="text-center">Desenvolvido por Ramir Junior | Copyright 2021 - Desenvolvimento de Interfaces Web | <b>ICEI PUC
+                        Minas</b></p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12">
+                <img src="imgs/logo_.png" title="WD Films - O melhor portal de filmes do Brasil!" alt="logo WDFilms" class="logo">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
