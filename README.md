@@ -8,6 +8,6 @@ O site sob o nome fictício "Portal WD Films" possui layout responsivo para tela
 
 _Obs: O projeto foi 100% desenvolvido em HTML5 e CSS3 puro. Havia uma proposta mínima de layout que  poderia ser alterada de acordo com a preferência do aluno cumprindo os requisitos mínimos exigidos._
 
-O resultado do projeto pode ser visto em 
+O resultado do projeto pode ser visto em https://layout-responsivo.jayhdl.repl.co/index.html
 
 > Status do projeto: Concluído ✔️
