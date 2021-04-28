@@ -10,6 +10,6 @@
 >
 > O resultado do projeto pode ser visto em https://layout-responsivo.jayhdl.repl.co/
 >
-> > Status do projeto: Em processo :hourglass_flowing_sand:
+> > Status do projeto: Concluído :heavy_check_mark:
 > >
 > > 
