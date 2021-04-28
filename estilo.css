@@ -80,6 +80,7 @@ body {
     background: url(imgs/fundo_menu.png);
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 10px;
     min-height: 100%;
     -webkit-box-shadow: 0px 0px 15px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 0px 0px 15px rgba(50, 50, 50, 0.5);
@@ -131,6 +132,15 @@ body {
 }
 
 .novidade {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.novidade:hover {
+    transition: 0.2s;
+    color: #c90700;
+    font-style: initial;
     padding: 15px;
     border-radius: 15px;
 }
@@ -420,7 +430,7 @@ body {
         margin: 10px;
     }
     .avaliador {
-        background: #4c4c4c;
+        background: url(imgs/fundo_menu.png);
         border-radius: 10px;
         margin: 10px;
         padding: 10px;
@@ -505,7 +515,7 @@ body {
     }
 }
 
-@media screen and (min-width:601px) and (max-width:768px) {
+@media screen and (min-width:601px) and (max-width:769px) {
     .header {
         font-size: 11px;
     }
@@ -544,8 +554,8 @@ body {
         display: none;
     }
     .card {
-        height: 430px;
         width: 30%;
+        height: 430px;
         font-size: 20px;
     }
     .linha-botao {
@@ -554,9 +564,8 @@ body {
         margin: 0 auto;
     }
     .avaliador {
-        background: #4c4c4c;
+        background: url(imgs/fundo_menu.png);
         border-radius: 10px;
-        padding: 10px;
         height: 100%;
         -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
         -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
@@ -638,5 +647,12 @@ body {
 @media screen and (max-width:1080px) {
     .card:nth-child(4) {
         display: none;
+    }
+    .lancamentos {
+        padding-bottom: 50px;
+        border-radius: 0px 0px 15px 15px;
+        -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
+        box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
     }
 }
